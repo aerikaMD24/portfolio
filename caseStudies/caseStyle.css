@@ -1,0 +1,291 @@
+/* <<<< Mobile CSS >>>> */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    color: #2D2825;
+    font-size: 1.4rem;
+}
+
+#background {
+    background: linear-gradient(180deg, #FCF4FF 0%, #F5E3F5 29%, #FFE7FF 73%, white 100%);
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+/* Header */
+header {
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+#logo {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    text-decoration: none;
+}
+
+#logo h1 {
+    color: #D4A03D;
+    width: 50%;
+    font-weight: 400;
+}
+
+#logo img {
+    width: 40%;
+}
+
+header nav {
+    display: none;
+}
+
+#hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+    width: 30%;
+    margin: 3% 0;
+}
+
+#hamburger div {
+    background-color: #2D2825;
+    width: 45px;
+    height: 5px;
+    /* margin: 10%; */
+    border-radius: 55px;
+}
+
+/* Landing */
+
+#landingCard {
+    background: linear-gradient(180deg, rgba(230, 169, 192, 0.85) 0%, rgba(234, 190, 214, 0.43) 50%, rgba(240, 199, 217, 0.68) 100%);
+    border-radius: 55px;
+    width: 70%;
+    height: 62vh;
+    margin: auto;
+    padding: 7%;
+}
+
+#landingCard p {
+    font-size: 2.4rem;
+}
+
+.dinkus {
+    margin: 10% auto;
+    width: 22%;
+    display: flex;
+    justify-content: space-around;
+}
+.dinkus img{
+    width: 18%;
+}
+
+/* UI/UX Case Studies */
+
+#uiuxCaseStudies {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#uiuxCaseStudies a {
+    height: 15vh;
+    width: 80%;
+    margin: 5% auto;
+    padding: 5%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color:#2D2825
+}
+
+#sage div, #shopenRose div, #foodOff div {
+    margin: 0;
+}
+
+#sage h3, #shopenRose h3, #foodOff h3 {
+    margin: 0;
+}
+
+
+
+#sage {
+    background-color: #C9D9CE;
+    
+}
+
+#shopenRose {
+    background-color: #F4D2DB;
+}
+
+#foodOff {
+    background-color: #F8ECD5;
+}
+
+/* Footer */
+
+footer {
+    background: linear-gradient(180deg, rgba(230, 169, 192, 0.85) 0%, rgba(234, 190, 214, 0.43) 50%, rgba(240, 199, 217, 0.68) 100%);
+    padding: 5%;
+    /* background-color: pink; */
+}
+
+footer h2 {
+    text-align: center;
+}
+
+footer img {
+    display: block;
+    margin: auto;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li a {
+    /* text-decoration: none; */
+    color: #D4A03D;
+    font-weight: 400;
+}
+
+footer li a:hover {
+    color: #D4A03D;
+}
+
+
+/* <<<< Desktop CSS (research sizes later) >>>> */
+@media only screen and (min-width: 600px) {
+
+/* Header  */
+
+#logo {
+    width: 30%;
+}
+
+#logo h1 {
+    font-size: 2rem;
+}
+
+header nav {
+    display: block;
+    width: 30%;
+    margin: auto 0;
+    font-size: 2rem;
+}
+    
+header ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+header ul li{
+    margin: 0 2rem;
+    list-style: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #2D2825;
+    font-weight: 600;
+}
+
+header ul li a:hover{
+    color: #D4A03D
+}
+
+#hamburger {
+    display: none;
+}
+
+/* Landing */
+
+#landingCard {
+    height: 35vh;
+}
+
+#landingCard p {
+    font-size: 4.8rem;
+}
+ 
+
+.dinkus {
+    width: 12%;
+    margin: 15% auto;
+}
+
+/* UI/UX Case Studies */
+
+#uiuxCaseStudies a {
+    height: 20vh;
+    padding: 4rem;
+}
+
+#sage, #shopenRose, #foodOff {
+    /* align-items: end; */
+}
+
+#sage div, #shopenRose div, #foodOff div {
+    align-content: end;
+    padding: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h2 {text-align: left;}
+
+#businessCard {
+    display: flex;
+}
+
+#businessCard img{
+    max-width: 20%;
+    height: auto;
+    margin: 0;
+}
+
+#contact {
+    margin: auto;
+}
+
+#contact ul{
+    padding: 0;
+}
+
+#contact ul li a{
+    text-decoration: none;
+    color: #2D2825
+}
+
+#contact ul li a:hover{
+    color: #D4A03D
+}
+
+}
